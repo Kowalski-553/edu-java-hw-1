@@ -13,7 +13,9 @@ public class Main {
     boolean is_it_false = true; // xD
     int[] array_with_some_numbers = { 42, 19, 56 };
 
-    System.out.println("-----Задача 1. Инициализировать все известные переменные.-----");
+    System.out.println(
+      "-----Задача 1. Инициализировать все известные переменные.-----"
+    );
     System.out.println("letter = " + letter);
     System.out.println("number = " + number);
     System.out.println("name = " + name);
@@ -31,7 +33,9 @@ public class Main {
 
   // Метод 2: Написать метод, которому в качестве параметра передается строка, обозначающая имя. Метод должен вывести в консоль сообщение «Привет, указанное_имя!».
   public static void greet(String name) {
-    System.out.println("-----Задача 2. Поприветствовать <имя на входе функции>-----");
+    System.out.println(
+      "-----Задача 2. Поприветствовать <имя на входе функции>-----"
+    );
     System.out.println("Привет " + name + "!");
   }
 
@@ -56,7 +60,9 @@ public class Main {
 
   // Метод 5: Написать метод, который выводит последовательность чисел от 1000 до 0, кратных 3
   public static void printMultiplesOfThree() {
-    System.out.println("-----Задача 5. Вывести числа от 1000 до 0, кратные 3.-----");
+    System.out.println(
+      "-----Задача 5. Вывести числа от 1000 до 0, кратные 3.-----"
+    );
     for (int i = 1000; i >= 0; i--) {
       if (i % 3 == 0) {
         System.out.println(i);
